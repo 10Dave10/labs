@@ -1,0 +1,70 @@
+
+body {
+ background-color: #00b9d1;
+ width: 600px;
+ height: 500px;
+}
+h1 {
+    color: red;
+    text-decoration: underline;
+  }
+  /* Selector de tipo */
+  p {
+    color: blue;
+  }
+  /* Selector de clase */
+.red{
+background-color: red;
+color:white;
+}
+
+.red-group{
+    background-color: red;
+    width: 200px;
+    height:200px
+}
+ 
+.blue-group{
+    background-color: blue;
+    width: 200px;
+    height:200px
+}
+#cover-box{
+    background-color: black;
+    color:pink;
+    width: 100px;
+    height: 50px;
+}
+/* el selector universal es el "*" */
+* {
+    font-family: monospace;
+  }
+
+  /* When the user hovers over the button turn it blue */
+button:hover {
+    color: blue;
+  }
+
+  div {
+    display: inline-block;
+    margin-right: 20px;
+    width: 400px;
+    line-height: 1;
+  }
+  
+  #center {
+    text-align: center;
+  }
+  
+  #right {
+    text-align: right;
+    line-height: 3;
+  }
+  
+  #left {
+    text-align: left;
+  }
+  
+  #justify {
+    text-align: justify;
+  }
