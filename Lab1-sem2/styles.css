@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding:0px;
+}
+
+#octocat {
+  display: block;
+  width:384px;
+  margin: 50px auto;
+} 
+
+/* Todas las P */
+p {
+  display: block;
+  width: 750px;
+  margin: 50px auto;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+/* Imagen principal */
+   .apple{
+    margin: 3px;
+    height:550px;
+    position: relative;
+    background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone-es/master/apple-pie/images/apple-pie.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   }
+
+   /* Titulo */
+   h1{
+    position:absolute;
+    color: white;
+    top: 45%;
+    left: 37%;
+    font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono";
+    font-weight: 600;
+   }
+
+/* imagen de preparacion */
+.prepa {
+text-align: center;margin: 0 50px;
+border-bottom: 3px solid #ccc;
+}
+
+
+/*  Lista de Ingredeientes */
+.ingredients{
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono";
+  width: 750px;
+  margin: 50px auto;
+}
+
+/* para distaciar el titulo de ingredientes  */
+h4{
+  margin-bottom: 15px;
+}
+/*  quitar los circulos y colocar guiones */
+ul{
+  list-style: none;
+}
+li:before {
+  content: "-";
+  margin-right: 5px;
+}
+
+
+.hight img
+{
+height: 100px;
+}
+
